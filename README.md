@@ -1,4 +1,4 @@
-# Cours en Chanson 🎵📚
+# Cours en Chanson 
 
 Application qui transforme des cours manuscrits en chansons pour faciliter la mémorisation.
 
@@ -45,14 +45,14 @@ cours-en-chanson/
 ## Équipe
 
 Projet réalisé à 4, dans le cadre d'une soutenance académique.
-
+ 
 ## Répartition suggérée
 
 | Membre | Périmètre |
 |---|---|
-| 1 | `services/ocr` — upload, appel API Vision, gestion des erreurs |
-| 2 | `services/extraction-paroles` + `services/audio` |
-| 3 | `web/` (Next.js) |
+| 1 | `services/ocr` + services/api-gateway|
+| 2 | `services/extraction-paroles`  |
+| 3 | services/audio + services/utilisateur |
 | 4 | `mobile/` (Flutter) |
 
 *(`api-gateway` et `utilisateur` peuvent être répartis selon l'avancement de chacun)*
